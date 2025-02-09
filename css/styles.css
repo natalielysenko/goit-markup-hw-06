@@ -52,8 +52,10 @@ button {
 /* COMMON */
 .container {
   max-width: 320px;
-  padding: 0 16px;
-  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -1105,15 +1107,16 @@ footer {
 
 .check-area {
   margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.modal-check-text {
+.wrapper-priv-pol {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
-  align-items: center;
 }
 
 .modal-check-item {
@@ -1144,7 +1147,7 @@ footer {
   letter-spacing: 0.04em;
 }
 
-.modal-check:checked + .modal-check-text .modal-check-item {
+.modal-check:checked + .check-area .modal-check-item {
   background-color: #404bbf;
   border: none;
 
