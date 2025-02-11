@@ -505,7 +505,7 @@ button {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.05em;
   color: #434455;
 }
 .motivation-item {
@@ -750,7 +750,7 @@ button {
     width: calc((100% - 24px) / 2);
   }
 }
-@media screen and (min-width: 1178px) {
+@media screen and (min-width: 1158px) {
   .portfolio-list {
     gap: 40px 24px;
   }
@@ -911,7 +911,7 @@ footer {
     gap: 24px;
   }
 }
-@media screen and (min-width: 1178px) {
+@media screen and (min-width: 1158px) {
   .container-footer {
     padding: 100px 0;
     align-items: baseline;
